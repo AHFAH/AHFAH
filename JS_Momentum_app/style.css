@@ -6,13 +6,52 @@ body{
   margin:0;
 }
 
-img{
-  width: 1920px;
-  height: 1080px;
+#wrap{
+  position: relative;
+  margin: 0;
+}
+
+#wrap-img img{
+  margin: 0;
+  width: 1522px;
+  height: 1100px;
 }
 
 #clock{
   color: rgba(53, 52, 52, 0.678);
   font-weight: 800;
   font-size: 100px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+
+#login-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#todo-form{
+  position: absolute;
+  top: 55%;
+  left: 47%;
+}
+
+#todo-list{
+  position: absolute;
+  top: 60%;
+  left: 47%;
+}
+
+#quote{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+}
+
+#weather span{
+  position: absolute;
+  top: 10%;
+  left: 3%;
 }
